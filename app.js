@@ -82,4 +82,16 @@ const reverseString = str =>{
 const reverseWordOrder = str =>{
     console.log(str.split('').reverse().join(''));
 }
-reverseWordOrder('My name is Phong Nguyen!');
+//reverseWordOrder('My name is Phong Nguyen!');
+
+/*
+8. longestStringInArray
+*/
+const longestStringInArray = str =>{
+    let longest= str.length;
+    for(let i =0; i<str.length;i++){
+        longest = str[i].length;
+    }
+    return longest;
+}
+//console.log(longestStringInArray(["SEI", " is ", "ROCK"]))
