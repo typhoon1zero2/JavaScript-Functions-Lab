@@ -35,4 +35,16 @@ const isCharAVowel =(char)=>{
     const vowels =['a','A','e','E','i','I','o','O','u','U']
     return vowels.includes(char);
 }
-console.log(isCharAVowel('F'))
+console.log(isCharAVowel('A'))
+
+/*
+4.sumArray
+*/
+ const sumArray=(arr)=>{
+     let sum = 0;
+     for(let i=0;i <arr.length; i++){
+         sum +=arr[i];
+     }
+     return sum
+ }
+ console.log(sumArray([2,4,5]));
