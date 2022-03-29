@@ -35,7 +35,7 @@ const isCharAVowel =(char)=>{
     const vowels =['a','A','e','E','i','I','o','O','u','U']
     return vowels.includes(char);
 }
-console.log(isCharAVowel('A'))
+//console.log(isCharAVowel('A'))
 
 /*
 4.sumArray
@@ -69,3 +69,17 @@ const numArgs = (...numOfArgs) =>{
     return numOfArgs.length;
 }
 //console.log(numArgs(0,0,1,2,3,5,6,5,1,3,3,3));
+
+/*
+7. reverseString
+*/
+
+const reverseString = str =>{
+   return str.split('').reverse().join('');
+}
+//console.log(reverseString('rockstar'));
+
+const reverseWordOrder = str =>{
+    console.log(str.split('').reverse().join(''));
+}
+reverseWordOrder('My name is Phong Nguyen!');
