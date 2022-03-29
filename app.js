@@ -26,4 +26,13 @@ const maxOfThreeNumbers = (a, b ,c) =>{
         return c;
     }
 }
-console.log(maxOfThreeNumbers(-20,-10,6))
+//console.log(maxOfThreeNumbers(-20,-10,6))
+
+/*
+3. isCharAVowel
+*/
+const isCharAVowel =(char)=>{
+    const vowels =['a','A','e','E','i','I','o','O','u','U']
+    return vowels.includes(char);
+}
+console.log(isCharAVowel('F'))
