@@ -59,4 +59,13 @@ const multiplyArray=(arr)=>{
     })
     return multiply;
 }
-console.log(multiplyArray([2,4,5]));
+//console.log(multiplyArray([2,4,5]));
+
+/*
+6. numArgs
+*/
+
+const numArgs = (...numOfArgs) =>{
+    return numOfArgs.length;
+}
+//console.log(numArgs(0,0,1,2,3,5,6,5,1,3,3,3));
