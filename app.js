@@ -47,4 +47,16 @@ console.log(isCharAVowel('A'))
      }
      return sum
  }
- console.log(sumArray([2,4,5]));
+ //console.log(sumArray([2,4,5]));
+
+ /*
+ 5. multiplyArray
+ */
+const multiplyArray=(arr)=>{
+    let multiply = 1;
+    arr.forEach((num)=>{
+        multiply *=num;
+    })
+    return multiply;
+}
+console.log(multiplyArray([2,4,5]));
