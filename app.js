@@ -95,3 +95,17 @@ const longestStringInArray = str =>{
     return longest;
 }
 //console.log(longestStringInArray(["SEI", " is ", "ROCK"]))
+
+/*
+9. stringsLongerThan
+*/
+const stringsLongerThan = (str, numArgs) =>{
+    let arr = [];
+    for (let i=0; i < str.length; i++){
+        if (str[i].length > numArgs){
+            arr.push(str[i])
+        }
+    }
+    return arr
+}
+console.log(stringsLongerThan(['say', 'hello', 'in', 'the', 'morning'], 3))
