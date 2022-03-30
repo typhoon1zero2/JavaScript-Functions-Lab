@@ -109,3 +109,17 @@ const stringsLongerThan = (str, numArgs) =>{
     return arr
 }
 console.log(stringsLongerThan(['say', 'hello', 'in', 'the', 'morning'], 3))
+
+/*
+Bonus: makeItRain
+*/
+
+const makeItRain = (...numArgs) =>{
+    const sumOfAllNumber = numArgs.reduce((dollar, bills) =>{
+        dollar +=bills
+        return dollar;
+    },0);
+    console.log(`i got ${sumOfAllNumber} in my pocket.  I'm 'bout to make it rain!!!`);
+}
+//console.log(makeItRain(3,4,6,7))
+
